@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200&display=swap");
 * {
     padding: 0;
     margin: 0;
@@ -16,6 +17,7 @@ body {
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
     background-color: #fff;
+    word-spacing: normal;
 }
 
 
@@ -71,4 +73,75 @@ body {
     background-color: #fff;
     color: #000;
     cursor: pointer;
+}
+
+
+/* Home */
+
+#home {
+    min-height: 80vh;
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    background: #f6e4d5;
+    padding: 10rem 9%;
+    margin-top: 88px;
+}
+
+.home__img img {
+    width: 616px;
+    height: 484px;
+    animation: floating 4s linear infinite;
+}
+
+@keyframes floating {
+    0%,
+    100% {
+        -webkit-transform: translateY(0rem);
+        transform: translateY(0rem);
+    }
+    50% {
+        -webkit-transform: translateY(-4rem);
+        transform: translateY(-4rem);
+    }
+}
+
+.home__content {
+    align-items: center;
+}
+
+.home__title {
+    font-size: 6rem;
+    letter-spacing: -3px;
+    display: block;
+    font-weight: 500;
+    word-spacing: -16px;
+}
+
+.home_text {
+    font-size: 2rem;
+    padding: 1rem 0;
+    line-height: 2;
+    font-weight: 200;
+}
+
+.home__link {
+    line-height: 20px;
+}
+
+.home__down {
+    position: relative;
+    z-index: 10;
+}
+
+.home__down::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    height: 4px;
+    width: 240px;
+    border-bottom: 15px solid #ffd080;
+    z-index: -1;
 }
