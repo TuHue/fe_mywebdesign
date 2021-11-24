@@ -21,9 +21,9 @@
             </a>
             <ul class="header__nav">
                 <link rel="stylesheet" class="nav__item"><a href="#home" class="nav__link nav__link--active">Home</a></link>
-                <link rel="stylesheet" class="nav__item"><a href="" class="nav__link">Services</a></link>
-                <link rel="stylesheet" class="nav__item"><a href="" class="nav__link">About</a></link>
-                <link rel="stylesheet" class="nav__item"><a href="" class="nav__link">Features</a></link>
+                <link rel="stylesheet" class="nav__item"><a href="#services" class="nav__link">Services</a></link>
+                <link rel="stylesheet" class="nav__item"><a href="#about" class="nav__link">About</a></link>
+                <link rel="stylesheet" class="nav__item"><a href="#features" class="nav__link">Features</a></link>
                 <link rel="stylesheet" class="nav__item"><a href="" class="nav__link">Pricing</a></link>
                 <link rel="stylesheet" class="nav__item"><a href="" class="nav__link">Reviews</a></link>
                 <link rel="stylesheet" class="nav__item"><a href="" class="nav__link">FAQ</a></link>
@@ -92,8 +92,31 @@
                 <a href="" class="btn about__btn">Read More</a>
             </div>
         </div>
-        <div id="features">
-
+        <div id="features" class="session">
+            <div class="features__title">
+                <p>How To Get Started</p>
+                <h2>With 3 Simple Step</h2>
+            </div>
+            <div class="features__steps">
+                <div class="features__step">
+                    <img src="./assets/img/step-1.svg" class="features-step__img" alt="">
+                    <h5 class="features-step__title">Join Us</h5>
+                    <p class="features-step__context">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Eligendi, Ducimus.</p>
+                    <a href="" class="features-step__btn btn">Read More</a>
+                </div>
+                <div class="features__step">
+                    <img src="./assets/img/step-2.svg" class="features-step__img" alt="">
+                    <h5 class="features-step__title">Cutomize Design</h5>
+                    <p class="features-step__context">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Eligendi, Ducimus.</p>
+                    <a href="" class="features-step__btn btn">Read More</a>
+                </div>
+                <div class="features__step">
+                    <img src="./assets/img/step-3.svg" class="features-step__img" alt="">
+                    <h5 class="features-step__title">Earn Money</h5>
+                    <p class="features-step__context">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Eligendi, Ducimus.</p>
+                    <a href="" class="features-step__btn btn">Read More</a>
+                </div>
+            </div>
         </div>
         <div id="pricing">
 
@@ -111,6 +134,9 @@
 
         </div>
     </div>
+    <script>
+        changeActiveNavigation();
+    </script>
 </body>
 
 </html>
