@@ -13,7 +13,7 @@
 html,
 body {
     font-size: 60.5%;
-    overflow: hidden;
+    /* overflow: hidden; */
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
     background-color: #fff;
@@ -32,7 +32,7 @@ body {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
-    z-index: 10;
+    z-index: 20;
     position: fixed;
     top: 0;
 }
@@ -79,14 +79,12 @@ body {
 /* Home */
 
 #home {
-    min-height: 80vh;
-    display: -webkit-box;
+    height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: row;
     gap: 2rem;
     background: #f6e4d5;
-    padding: 10rem 9%;
     margin-top: 88px;
 }
 
@@ -144,4 +142,63 @@ body {
     width: 240px;
     border-bottom: 15px solid #ffd080;
     z-index: -1;
+}
+
+
+/* Servcies */
+
+#services {
+    height: 110vh;
+    width: 100%;
+    background: #f6e4d5;
+}
+
+.services__title {
+    text-align: center;
+    word-spacing: -13px;
+    margin-bottom: 20px;
+}
+
+.services__title p {
+    font-size: 3rem;
+}
+
+.services__title h1 {
+    font-size: 5rem;
+}
+
+.services__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-card {
+    width: 407px;
+    height: 273px;
+    background: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-bottom: 15px;
+}
+
+.services-card__img {
+    height: 80px;
+    margin-bottom: 7px;
+}
+
+.services-card__title {
+    font-size: 2.2rem;
+    padding: 1.5rem 0;
+    font-weight: 300;
+    color: #000
+}
+
+.services-card__content {
+    line-height: 2;
+    font-size: 1.7rem;
+    font-weight: 100;
+    word-spacing: -5px;
+    color: rgb(37, 37, 37)
 }

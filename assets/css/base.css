@@ -10,3 +10,36 @@
     font-weight: bolder;
     border-radius: 0.5rem;
 }
+
+.session {
+    padding: 10rem 9%;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(29, 29, 29);
+    border-radius: 4px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
