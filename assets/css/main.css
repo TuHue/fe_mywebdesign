@@ -237,6 +237,7 @@ body {
     margin-bottom: 10px;
 }
 
+.pricing-step__btn,
 .about__btn {
     width: 160px;
     font-size: 1.8rem;
@@ -306,4 +307,56 @@ body {
     line-height: 2;
     padding-bottom: 1rem;
     word-spacing: -5px;
+}
+
+
+/* Pricing */
+
+.pricing__title {
+    text-align: center;
+    word-spacing: -13px;
+    margin-bottom: 20px;
+}
+
+.pricing__title p {
+    font-size: 3rem;
+}
+
+.pricing__title h2 {
+    font-size: 5rem;
+}
+
+.pricing-step {
+    margin-bottom: 30px;
+}
+
+.pricing-step__img {
+    width: 608px;
+    height: 400px;
+}
+
+.pricing-step {
+    display: flex;
+    flex-direction: row;
+}
+
+.pricing-step__context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pricing-step__title {
+    font-size: 4rem;
+    line-height: 1.5;
+    word-spacing: -10px;
+}
+
+.pricing-step__text {
+    line-height: 2;
+    font-size: 1.7rem;
+    font-weight: 100;
+    word-spacing: -5px;
+    color: rgb(37, 37, 37);
+    margin-bottom: 10px;
 }
