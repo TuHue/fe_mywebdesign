@@ -241,3 +241,18 @@ body {
     width: 160px;
     font-size: 1.8rem;
 }
+
+.about__down {
+    position: relative;
+    z-index: 10;
+}
+
+.about__down::before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    height: 4px;
+    width: 200px;
+    border-bottom: 15px solid #ffd080;
+    z-index: -1;
+}
